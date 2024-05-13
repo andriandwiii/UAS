@@ -42,6 +42,11 @@
             margin-left: 20px;
             font-weight: 400;
             font-size: 20px;
+            transition: color 0.3s ease; /* Efek transisi warna saat hover */
+        }
+
+        .menu a:hover {
+            color: #163B99; /* Warna berubah saat dihover */
         }
 
         .content {
@@ -113,11 +118,19 @@
             font-size: 20px;
             color: #2562FF;
             margin-right: 10px;
-            flex-shrink: 0; /* Hindari ikon untuk mengubah ukuran container */
+            flex-shrink: 0;
+        }
+
+        .input-container .icon:hover {
+            color: #163B99; /* Warna berubah saat dihover */
         }
 
         .password-icon {
             cursor: pointer;
+        }
+
+        .password-icon:hover {
+            color: #163B99; /* Warna berubah saat dihover */
         }
 
         .sign-up-button {
@@ -128,13 +141,13 @@
             border-radius: 5px;
             font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease; /* Efek transisi warna background saat hover */
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
         }
 
         .sign-up-button:hover {
-            background-color: #163B99;
+            background-color: #163B99; /* Warna berubah saat dihover */
         }
 
         .login-link {
@@ -146,6 +159,11 @@
         .login-link a {
             color: #2562FF;
             text-decoration: none;
+            transition: color 0.3s ease; /* Efek transisi warna saat hover */
+        }
+
+        .login-link a:hover {
+            color: #163B99; /* Warna berubah saat dihover */
         }
     </style>
 </head>

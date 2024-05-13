@@ -42,6 +42,11 @@
             margin-left: 20px;
             font-weight: 400;
             font-size: 20px;
+            transition: color 0.3s ease; /* Efek transisi warna saat hover */
+        }
+
+        .menu a:hover {
+            color: #163B99; /* Warna berubah saat dihover */
         }
 
         .content {
@@ -134,7 +139,7 @@
         }
 
         .sign-up-button:hover {
-            background-color: #163B99;
+            background-color: #163B99; /* Warna berubah saat dihover */
         }
 
         .login-link {
@@ -146,6 +151,11 @@
         .login-link a {
             color: #2562FF;
             text-decoration: none;
+            transition: color 0.3s ease; /* Efek transisi warna saat hover */
+        }
+
+        .login-link a:hover {
+            color: #163B99; /* Warna berubah saat dihover */
         }
     </style>
 </head>
@@ -195,3 +205,4 @@
     </script>
 </body>
 </html>
+
